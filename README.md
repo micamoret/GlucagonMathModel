@@ -1,5 +1,5 @@
 # GlucagonMathModel
-This repository was design to share the Matlab implementation of the mathematical model by Morettini et al. describing glucagon kinetics during an oral glucose tolerance test. 
+This repository was designed to share the Matlab implementation of the mathematical model by Morettini et al. describing glucagon kinetics during an oral glucose tolerance test. 
 
 ## Citing
 If you are using this code in your research, please cite the paper:
