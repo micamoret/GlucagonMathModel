@@ -1,12 +1,14 @@
 % glucamathins_main runs the Simulink implementation of the mathematical
-% model describing glucagon kinetics as driven by insulin during an oral
-% glucose tolerance test (ogtt). The model represents a modified version
-% (considering insulin instead of C-peptide) of the model proposed in:
-%
+% model describing glucagon kinetics during an oral glucose tolerance test
+% (ogtt) proposed in:
+% 
 % Morettini M, Burattini L, Göbl C, Pacini G, Ahrén B, Tura A. Mathematical
 % Model of Glucagon Kinetics for the Assessment of Insulin-Mediated
 % Glucagon Inhibition During an Oral Glucose Tolerance Test. Front
 % Endocrinol. 2021;12:611147. doi:10.3389/fendo.2021.611147.
+% 
+% In the current model application insulin is used instead of C-peptide
+% (differently from the original article indicated above).
 %
 % glucamathins_main allows to estimate individual model parameters using
 % lsqnonlin to solve a nonlinear least squares problem with regularization.
